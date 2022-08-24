@@ -23,6 +23,7 @@
 html {
     /* Browser sets font size to 16px, 62.5% of 16 is 10 (earier to work with) */
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -615,7 +616,7 @@ a {
 
 .block {
     --padding-vertical: 6rem;
-    padding: var(--padding-vertical) 0;
+    padding: var(--padding-vertical) 4rem;
     /* border: 2px solid red; */
     
 }
